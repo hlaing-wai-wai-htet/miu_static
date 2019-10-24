@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'apercu';
+    src: url('../font/rubik/Rubik-Regular.eot');
+    src: url('../font/rubik/Rubik-Regular.eot?#iefix') format('embedded-opentype'), url('../font/rubik/Rubik-Regular.woff') format('woff'), url('../font/rubik/Rubik-Regular.ttf') format('truetype'), url('../font/rubik/Rubik-Regular') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
