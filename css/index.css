@@ -1,0 +1,79 @@
+/* Home Slider */
+
+.carousel-indicators {
+    position: relative;
+    bottom: -155px;
+}
+
+.carousel-indicators li {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+    background-color: #7c7c7c !important;
+}
+
+.carousel-indicators  .active {
+    background-color:#e59e00 !important;
+}
+
+.carousel-caption {
+    width: 80%;
+    position: relative;
+    right: 15%;
+    left: 3%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #1d2124;
+    text-align: left;
+    top: -4px;
+}
+
+.card {
+    background-color: #7c7c7c0d !important;
+    border: none !important;
+    width: 100%;
+}
+
+.event-img {
+    width: 120px;
+}
+
+.social img {
+    width: 20px;
+}
+
+.bg-yellow {
+    color: #ffffff;
+}
+
+/* education section */
+
+.education-img {
+    object-position: 100% 24%;
+    object-fit: cover;
+    width: 100%;
+    height: 158px;
+}
+
+.education-img-2 {
+    object-position: 100% 72%;
+}
+
+.education-img-3 {
+    object-position: 100% 70%;
+}
+
+.education-mark {
+    opacity: 0.7;
+    position: relative;
+    top: -44px;
+    padding: 12px 30px;
+    width: 80%;
+    height: 45px;
+    background-color: #f8f9fa;
+}
+
+/* Our Achievement Section */
+.accredit img {
+    width: 60px;
+}

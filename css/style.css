@@ -1,7 +1,63 @@
 @font-face {
-    font-family: 'apercu';
-    src: url('../font/rubik/Rubik-Regular.eot');
-    src: url('../font/rubik/Rubik-Regular.eot?#iefix') format('embedded-opentype'), url('../font/rubik/Rubik-Regular.woff') format('woff'), url('../font/rubik/Rubik-Regular.ttf') format('truetype'), url('../font/rubik/Rubik-Regular') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-  }
+  font-family: 'apercu';
+  src: url('../font/rubik/Rubik-Regular.eot');
+  src: url('../font/rubik/Rubik-Regular.eot?#iefix') format('embedded-opentype'), url('../font/rubik/Rubik-Regular.woff') format('woff'), url('../font/rubik/Rubik-Regular.ttf') format('truetype'), url('../font/rubik/Rubik-Regular') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+footer {
+  background-color: #001c32;
+  color: #ffffff;
+}
+
+.footer-logo {
+  width: 120px;
+}
+
+.bg-gray {
+  background-color: #7c7c7c0d;
+}
+
+.bg-yellow {
+  background-color: #e59e00 ;
+}
+
+.border-bottom-gray {
+  border-bottom: 0.3px solid #dee2e62e;
+}
+
+.text-blue {
+  color: #3986e2;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.w-28 {
+  width: 28px;
+}
+
+/* Nav Bar */
+.logo {
+  width: 65px;
+  height: 50px;
+}
+
+.search-icon {
+  width: 24px;
+}
+
+.navbar-collapse ul {
+  padding-left: 0px;
+  list-style: none;
+}
+
+.navbar-collapse ul li {
+  padding: 5px;
+}
+
+.navbar-collapse ul li a{
+  color: #ffffff;
+}
