@@ -1,32 +1,30 @@
-/* Home Slider */
+/*Swiper*/
+.swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    background: #ffffff;
+    opacity: 1;
+}
 
-.carousel-indicators {
+.swiper-pagination-bullet-active {
+    background: #e59e00 !important;
+}
+
+/* Header Slider */
+#header-slider .swiper-pagination {
+    top: 12px;
+    left: 128px;
+
+}
+
+#header-slider .swiper-caption {
+    left: 14px;
+    width: 90%;
+    bottom: 78px;
     position: relative;
-    bottom: -155px;
+    font-size: 14px;
 }
 
-.carousel-indicators li {
-    width: 10px !important;
-    height: 10px !important;
-    border-radius: 50%;
-    background-color: #7c7c7c !important;
-}
-
-.carousel-indicators  .active {
-    background-color:#e59e00 !important;
-}
-
-.carousel-caption {
-    width: 80%;
-    position: relative;
-    right: 15%;
-    left: 3%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    color: #1d2124;
-    text-align: left;
-    top: -4px;
-}
 
 .card {
     background-color: #7c7c7c0d !important;

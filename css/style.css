@@ -1,52 +1,22 @@
 @font-face {
-  font-family: 'apercu';
-  src: url('../font/rubik/Rubik-Regular.eot');
-  src: url('../font/rubik/Rubik-Regular.eot?#iefix') format('embedded-opentype'), url('../font/rubik/Rubik-Regular.woff') format('woff'), url('../font/rubik/Rubik-Regular.ttf') format('truetype'), url('../font/rubik/Rubik-Regular') format('woff2');
+  font-family: 'rubik';
+  src: url('home/hlaing/workspace/miu_static/font/rubik/Rubik-Regular.eot');
+  src: url('/home/hlaing/workspace/miu_static/font/rubik/Rubik-Regular.eot?#iefix') format('embedded-opentype'),
+   url('/home/hlaing/workspace/miu_static/font/rubik/Rubik-Regular.woff') format('woff'), 
+   url('/home/hlaing/workspace/miu_static/font/rubik/Rubik-Regular.ttf') format('truetype'), 
+   url('/home/hlaing/workspace/miu_static/font/rubik/Rubik-Regular') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
 
-footer {
-  background-color: #001c32;
-  color: #ffffff;
-}
-
-.footer-logo {
-  width: 120px;
-}
-
-.bg-gray {
-  background-color: #7c7c7c0d;
-}
-
-.bg-yellow {
-  background-color: #e59e00 ;
-}
-
-.border-bottom-gray {
-  border-bottom: 0.3px solid #dee2e62e;
-}
-
-.text-blue {
-  color: #3986e2;
-}
-
-.text-white {
-  color: #ffffff;
-}
-
-.w-28 {
-  width: 28px;
+body {
+  font-family: 'rubik', sans-serif;
 }
 
 /* Nav Bar */
 .logo {
   width: 65px;
   height: 50px;
-}
-
-.search-icon {
-  width: 24px;
 }
 
 .navbar-collapse ul {
@@ -60,4 +30,80 @@ footer {
 
 .navbar-collapse ul li a{
   color: #ffffff;
+  font-size: 16px;
 }
+
+.menu-collapse {
+  width: 8px;
+  transform: rotate(90deg);
+}
+
+/*footer*/
+footer {
+  background-color: #001c32;
+  color: #ffffff;
+}
+
+.footer-logo {
+  width: 120px;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/*Color*/
+.bg-nav {
+  background-color: #001c32 !important;
+}
+
+.bg-gray {
+  background-color: #7c7c7c0d !important;
+}
+
+.bg-yellow {
+  background-color: #e59e00 !important;
+}
+
+.border-bottom-gray {
+  border-bottom: 0.3px solid #dee2e62e;
+}s
+
+.text-blue {
+  color: #3986e2 !important;
+}
+
+.text-white {
+  color: #ffffff !important;
+}
+
+/*Font Size*/
+.font-12 {
+  font-size: 12px !important;
+}
+
+.font-14 {
+  font-size: 14px !important;
+}
+
+.font-16 {
+  font-size: 16px !important;
+}
+
+.font-18 {
+  font-size: 18px !important;
+}
+
+/*width*/
+.w-28 {
+  width: 28px !important;
+}
+
+.search-icon {
+  width: 24px;
+}
+
