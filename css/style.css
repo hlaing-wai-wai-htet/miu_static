@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'rubik';
-  src: url('home/hlaing/workspace/miu_static/font/rubik/Rubik-Regular.eot');
-  src: url('/home/hlaing/workspace/miu_static/font/rubik/Rubik-Regular.eot?#iefix') format('embedded-opentype'),
-   url('/home/hlaing/workspace/miu_static/font/rubik/Rubik-Regular.woff') format('woff'), 
-   url('/home/hlaing/workspace/miu_static/font/rubik/Rubik-Regular.ttf') format('truetype'), 
-   url('/home/hlaing/workspace/miu_static/font/rubik/Rubik-Regular') format('woff2');
+  src: url('/home/mhs/workspace/miu-responsive/assets/font/rubik/Rubik-Regular.eot');
+  src: url('/home/mhs/workspace/miu-responsive/assets/font/rubik/Rubik-Regular.eot?#iefix') format('embedded-opentype'),
+   url('/home/mhs/workspace/miu-responsive/assets/font/rubik/Rubik-Regular.woff') format('woff'), 
+   url('/home/mhs/workspace/miu-responsive/assets/font/rubik/Rubik-Regular.ttf') format('truetype'), 
+   url('/home/mhs/workspace/miu-responsive/assets/font/rubik/Rubik-Regular') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
@@ -33,6 +33,12 @@ body {
   font-size: 16px;
 }
 
+.navbar-toggler {
+  border: none !important;
+  border-radius: 0;
+  border-left: 1px solid #1e5872 !important;
+}
+
 .menu-collapse {
   width: 8px;
   transform: rotate(90deg);
@@ -40,7 +46,7 @@ body {
 
 /*footer*/
 footer {
-  background-color: #001c32;
+  background-color: #0a1c30;
   color: #ffffff;
 }
 
@@ -56,13 +62,21 @@ a:hover {
   text-decoration: none;
 }
 
+button:focus {
+  outline: none;
+}
+
 /*Color*/
 .bg-nav {
-  background-color: #001c32 !important;
+  background-color: #0a1c30 !important;
+}
+
+.bg-menu {
+  background-color: #1a3b59 !important;
 }
 
 .bg-gray {
-  background-color: #7c7c7c0d !important;
+  background-color: #f4f4f4 !important;
 }
 
 .bg-yellow {
@@ -70,8 +84,8 @@ a:hover {
 }
 
 .border-bottom-gray {
-  border-bottom: 0.3px solid #dee2e62e;
-}s
+  border-bottom: 1px solid #dee2e62e;
+}
 
 .text-blue {
   color: #3986e2 !important;
@@ -81,7 +95,23 @@ a:hover {
   color: #ffffff !important;
 }
 
+.text-gray {
+  color: #666666 !important;
+}
+
+.text-black {
+  color: #212121 !important;
+}
+
 /*Font Size*/
+h3 {
+  font-size: 24px;
+}
+
+h5 {
+  font-size: 16px;
+}
+
 .font-12 {
   font-size: 12px !important;
 }
