@@ -9,8 +9,13 @@
   font-style: normal;
 }
 
+
 body {
   font-family: 'rubik', sans-serif;
+}
+
+:focus {
+  outline: none;
 }
 
 /* Nav Bar */

@@ -33,10 +33,10 @@
 				<ul class="mb-0">
 					<li>
 						<a href="#">ABOUT US</a>
-						<a class="float-right sub-menu" data-toggle="collapse" data-target="#fee-and-fund">
+						<a class="float-right sub-menu" data-toggle="collapse" data-target="#about-us">
 							<i class="fa fa-fw fa-chevron-down"></i>
 						<a>
-						<div id="fee-and-fund" class="collapse border-bottom-gray pt-3 pb-3 mb-3">
+						<div id="about-us" class="collapse border-bottom-gray pt-3 pb-3 mb-3">
 							<ul>
 								<li>Undergraduate</li>
 								<li>Graduated</li>
@@ -51,10 +51,10 @@
 					</li>
 					<li>
 						<a href="#">PROGRAMMES</a>
-						<a class="float-right sub-menu" data-toggle="collapse" data-target="#research-and-dev">
+						<a class="float-right sub-menu" data-toggle="collapse" data-target="#programmes">
 							<i class="fa fa-fw fa-chevron-down"></i>
 						<a>
-						<div id="research-and-dev" class="collapse">
+						<div id="programmes" class="collapse border-bottom-gray pt-3 pb-3 mb-3">
 							<ul>
 								<li></li>
 								<li></li>
@@ -64,13 +64,43 @@
 					</li>
 					<li>
 						<a href="#">LIFE AT MIU</a>
-						<a class="float-right sub-menu" data-toggle="collapse" data-target="#academic-faculty">
+						<a class="float-right sub-menu" data-toggle="collapse" data-target="#life-at-miu">
 							<i class="fa fa-fw fa-chevron-down"></i>
 						<a>
-						<div id="academic-faculty" class="collapse">ACADEMIC FACULTY</div>
+						<div id="life-at-miu" class="collapse  border-bottom-gray pt-3 pb-3 mb-3">
+							<ul>
+								<li></li>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
 					</li>
-					<li><a href="#">OPPORTUNITES</a></li>
-					<li><a href="#">CONTACT US</a></li>
+					<li>
+						<a href="#">OPPORTUNITES</a>
+						<a class="float-right sub-menu" data-toggle="collapse" data-target="#opportunities">
+							<i class="fa fa-fw fa-chevron-down"></i>
+						<a>
+						<div id="opportunities" class="collapse  border-bottom-gray pt-3 pb-3 mb-3">
+							<ul>
+								<li></li>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<a href="#">CONTACT US</a>
+						<a class="float-right sub-menu" data-toggle="collapse" data-target="#contact-us">
+							<i class="fa fa-fw fa-chevron-down"></i>
+						<a>
+						<div id="contact-us" class="collapse  border-bottom-gray pt-3 pb-3 mb-3">
+							<ul>
+								<li></li>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+					</li>
 				</ul>
 			</div>
 		</div>
@@ -525,6 +555,11 @@
 			var swiper = new Swiper('.swiper-container', {
 				pagination: {
 					el: '.swiper-pagination',
+					clickable: true,
+				},
+				navigation: {
+					nextEl: '.swiper-button-next',
+					clickable: true,
 				},
 			});
 

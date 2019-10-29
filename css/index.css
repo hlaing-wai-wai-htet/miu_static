@@ -12,6 +12,8 @@
 
 .swiper-button-next {
     --swiper-theme-color: #343a40 !important;
+    /*background-image: url("home/hlaing/workspace/miu_static/images/next.svg") !important;
+    background-repeat: no-repeat;*/
 }
 
 /* Header Slider */
