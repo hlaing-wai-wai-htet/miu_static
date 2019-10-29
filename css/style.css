@@ -1,7 +1,144 @@
 @font-face {
-    font-family: 'apercu';
-    src: url('../font/rubik/Rubik-Regular.eot');
-    src: url('../font/rubik/Rubik-Regular.eot?#iefix') format('embedded-opentype'), url('../font/rubik/Rubik-Regular.woff') format('woff'), url('../font/rubik/Rubik-Regular.ttf') format('truetype'), url('../font/rubik/Rubik-Regular') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-  }
+  font-family: 'rubik';
+  src: url('/home/mhs/workspace/miu-responsive/assets/font/rubik/Rubik-Regular.eot');
+  src: url('/home/mhs/workspace/miu-responsive/assets/font/rubik/Rubik-Regular.eot?#iefix') format('embedded-opentype'),
+   url('/home/mhs/workspace/miu-responsive/assets/font/rubik/Rubik-Regular.woff') format('woff'), 
+   url('/home/mhs/workspace/miu-responsive/assets/font/rubik/Rubik-Regular.ttf') format('truetype'), 
+   url('/home/mhs/workspace/miu-responsive/assets/font/rubik/Rubik-Regular') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body {
+  font-family: 'rubik', sans-serif;
+}
+
+:focus {
+  outline: none;
+}
+
+/* Nav Bar */
+.logo {
+  width: 65px;
+  height: 50px;
+}
+
+.navbar-collapse ul {
+  padding-left: 0px;
+  list-style: none;
+}
+
+.navbar-collapse ul li {
+  padding: 5px;
+}
+
+.navbar-collapse ul li a{
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.navbar-toggler {
+  border: none !important;
+  border-radius: 0;
+  border-left: 1px solid #1e5872 !important;
+}
+
+.menu-collapse {
+  width: 8px;
+  transform: rotate(90deg);
+}
+
+/*footer*/
+footer {
+  background-color: #0a1c30;
+  color: #ffffff;
+}
+
+.footer-logo {
+  width: 120px;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+/*Color*/
+.bg-nav {
+  background-color: #0a1c30 !important;
+}
+
+.bg-menu {
+  background-color: #1a3b59 !important;
+}
+
+.bg-gray {
+  background-color: #f4f4f4 !important;
+}
+
+.bg-yellow {
+  background-color: #e59e00 !important;
+}
+
+.border-bottom-gray {
+  border-bottom: 1px solid #dee2e62e;
+}
+
+.text-blue {
+  color: #3986e2 !important;
+}
+
+.text-white {
+  color: #ffffff !important;
+}
+
+.text-gray {
+  color: #666666 !important;
+}
+
+.text-black {
+  color: #212121 !important;
+}
+
+/*Font Size*/
+h3 {
+  font-size: 24px;
+}
+
+h5 {
+  font-size: 16px;
+}
+
+.font-12 {
+  font-size: 12px !important;
+}
+
+.font-14 {
+  font-size: 14px !important;
+}
+
+.font-16 {
+  font-size: 16px !important;
+}
+
+.font-18 {
+  font-size: 18px !important;
+}
+
+/*width*/
+.w-28 {
+  width: 28px !important;
+}
+
+.search-icon {
+  width: 24px;
+}
+

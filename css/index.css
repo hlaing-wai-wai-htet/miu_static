@@ -1,0 +1,115 @@
+/*Swiper*/
+.swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    background: #7c7c7c;
+    opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+    background: #e59e00 !important;
+}
+
+.swiper-button-next {
+    --swiper-theme-color: #343a40 !important;
+    /*background-image: url("home/hlaing/workspace/miu_static/images/next.svg") !important;
+    background-repeat: no-repeat;*/
+}
+
+/* Header Slider */
+#header-slider .swiper-pagination-bullet {
+    background: #ffffff;
+}
+
+#header-slider .swiper-pagination {
+    top: 12px;
+    left: 128px;
+}
+
+#header-slider .swiper-caption {
+    left: 14px;
+    width: 90%;
+    bottom: 0;
+    position: absolute;
+    font-size: 14px;
+}
+
+#header-slider .swiper-button-next {
+    top: 50%;
+    right: 28px;
+}
+
+#event-slider .swiper-wrapper .swiper-slide {
+    display: flex;
+    width: 60% !important;
+}
+
+#gallery-slider .swiper-wrapper .swiper-slide {
+    width: 40% !important;
+} 
+
+.card {
+    background-color: #7c7c7c0d !important;
+    border: none !important;
+    width: 100%;
+}
+
+.event-img {
+    width: 120px;
+}
+
+.social img {
+    width: 20px;
+}
+
+.bg-yellow {
+    color: #ffffff;
+}
+
+/* education section */
+
+.education-img {
+    object-position: 100% 24%;
+    object-fit: cover;
+    width: 100%;
+    height: 158px;
+}
+
+.education-img-2 {
+    object-position: 100% 72%;
+}
+
+.education-img-3 {
+    object-position: 100% 70%;
+}
+
+.education .row {
+    position: relative !important;
+}
+
+.education-mark {
+    position: absolute;
+    bottom: 0px;
+    padding: 12px 30px;
+    width: 80%;
+    height: 45px;
+    background-color: #f8f9fab5;
+}
+
+/* Our Achievement Section */
+.accredit img {
+    width: 60px;
+}
+
+.gallery-img {
+    width: 100%;
+}
+
+#gallery-slider .swiper-button-next {
+    background-color:#ced4dae6;
+    height: 100%;
+    width: 64px;
+    top: 14%;
+    right: 0;
+    left: auto;
+}
