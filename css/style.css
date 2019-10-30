@@ -9,6 +9,7 @@
   font-style: normal;
 }
 
+html, body { touch-action: none }
 
 body {
   font-family: 'rubik', sans-serif;
@@ -16,6 +17,30 @@ body {
 
 :focus {
   outline: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  padding-bottom: 20px;
+}
+
+img {
+  width: 100%;
 }
 
 /* Nav Bar */
@@ -59,16 +84,8 @@ footer {
   width: 120px;
 }
 
-a{
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: none;
-}
-
-button:focus {
-  outline: none;
+.social img {
+  width: 20px;
 }
 
 /*Color*/
@@ -84,12 +101,20 @@ button:focus {
   background-color: #f4f4f4 !important;
 }
 
+.bg-blue {
+  background-color: #3986e2 !important;
+}
+
 .bg-yellow {
   background-color: #e59e00 !important;
 }
 
 .border-bottom-gray {
   border-bottom: 1px solid #dee2e62e;
+}
+
+.border-top-gray {
+  border-top: 1px solid #dee2e62e;
 }
 
 .text-blue {
@@ -117,6 +142,10 @@ h5 {
   font-size: 16px;
 }
 
+p {
+  font-size: 14px;
+}
+
 .font-12 {
   font-size: 12px !important;
 }
@@ -131,6 +160,14 @@ h5 {
 
 .font-18 {
   font-size: 18px !important;
+}
+
+.font-22 {
+  font-size: 22px !important;
+}
+
+.font-24 {
+  font-size: 24px !important;
 }
 
 /*width*/
