@@ -1,4 +1,7 @@
 $(document).ready(function() {
+
+    // $("header").load("header.html");
+
     var swiper = new Swiper('.swiper-container', {
         pagination: {
             el: '.swiper-pagination',
@@ -18,7 +21,28 @@ $(document).ready(function() {
         }
     });
 
+    
+    $(".program-sub-menu").click(function() {
+        debugger;
+        $(this).attr("href", "programmes.html");
+        var title = $(this).text();
+        $("#program-title").text(title);
+    });
+
     $(".hide-menu").click(function() {
         $("#nav-content").removeClass("show");
     });
+
 });
+
+// // function replace_submenu() {
+// //     debugger;
+// $(this).attr("href", "programmes.html");
+// //     var title = $(this).text();
+// //     $("#program-title").text(title);
+// // }
+
+// $.get("header.html", function(data){
+//     alert(data)
+//     $("#miu-header").replaceWith(data);
+// });

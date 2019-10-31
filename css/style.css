@@ -25,6 +25,7 @@ button:focus {
 
 a{
   text-decoration: none;
+  color: #212121;
 }
 
 a:hover {
@@ -74,6 +75,14 @@ img {
   transform: rotate(90deg);
 }
 
+.search-icon {
+  width: 28px;
+}
+
+.menu-icon {
+  width: 24px;
+}
+
 /*footer*/
 footer {
   background-color: #0a1c30;
@@ -97,6 +106,10 @@ footer {
   background-color: #1a3b59 !important;
 }
 
+.bg-white {
+  background-color: #ffffff !important;
+}
+
 .bg-gray {
   background-color: #f4f4f4 !important;
 }
@@ -109,6 +122,10 @@ footer {
   background-color: #e59e00 !important;
 }
 
+.border-blue {
+  border-color: #3986e2 !important;
+}
+
 .border-bottom-gray {
   border-bottom: 1px solid #dee2e62e;
 }
@@ -119,6 +136,10 @@ footer {
 
 .text-blue {
   color: #3986e2 !important;
+}
+
+.text-yellow {
+  color:  #e59e00 !important;
 }
 
 .text-white {
@@ -175,7 +196,75 @@ p {
   width: 28px !important;
 }
 
-.search-icon {
-  width: 24px;
+/*Margin*/
+.mt__40 {
+  margin-top: -40px;
 }
 
+.underline {
+  text-decoration: underline;
+}
+
+.bg-img {
+  position: relative;
+  overflow: hidden;
+  background-color: #000;
+}
+
+.bg-img div {
+  position: relative;
+  z-index: 2;
+}
+
+.bg-img img {
+  position: absolute;
+  left: 0px;
+  top: -178px;
+  width: 100%;
+  height: auto;
+  opacity: 0.3;
+}
+
+.title-img {
+  width: 60px;
+  height: 60px;
+}
+
+/*Swiper*/
+.swiper-button-next {
+  --swiper-theme-color: #343a40 !important;
+  /*background-image: url("home/hlaing/workspace/miu_static/images/next.svg") !important;
+  background-repeat: no-repeat;*/
+}
+
+/*Card*/
+.card {
+  border: none !important;
+  width: 100%;
+}
+
+.absolute {
+  position: absolute !important;
+}
+
+.relative {
+  position: relative !important;
+}
+
+.bottom-68 {
+  bottom: 68px !important;
+}
+
+/* Partner Page */
+.partner-img-slider .swiper-wrapper .swiper-slide {
+  width: 70% !important;
+} 
+
+.partner-img-slider .swiper-button-next {
+  background-color:#ced4dae6;
+  height: 100%;
+  width: 64px;
+  top: 12%;
+  right: 0;
+  left: auto;
+}
