@@ -74,13 +74,13 @@
                                         <span class="font-16">Study At MIU</span>
                                         <ul class="pl-2 font-14">
                                             <li>
-                                                <a class="program-sub-menu" href="">Bachelor of Business and Management</a>
+                                                <a class="program-sub-menu">Bachelor of Business and Management</a>
                                             </li>
                                             <li>
-                                                <a class="program-sub-menu" href="">Bachelor of Marketing Management</a>
+                                                <a class="program-sub-menu">Bachelor of Marketing Management</a>
                                             </li>
                                             <li>
-                                                <a class="program-sub-menu" href="">Bachelor of International Tourism Management</a>
+                                                <a class="program-sub-menu">Bachelor of International Tourism Management</a>
                                             </li>
                                             <li>Master of Business Administration (MBA)</li>
                                             <li>Doctor of Business Administration (DBA)</li>
@@ -256,5 +256,10 @@
         <script src="plugin/fontawesome/js/all.js" type="text/javascript"></script>
         <script src="plugin/swiper/js/swiper.min.js" type="text/javascript"></script>
         <script src="js/custom.js" type="text/javascript"></script>
+        <script>
+            const urlParams = new URLSearchParams(window.location.search);
+            const myParam = urlParams.get('title');
+            $("#program-title").text(myParam);
+        </script>
     </body>
 </html>

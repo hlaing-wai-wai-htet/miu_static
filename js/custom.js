@@ -1,6 +1,9 @@
+
 $(document).ready(function() {
 
     // $("header").load("header.html");
+
+    
 
     var swiper = new Swiper('.swiper-container', {
         pagination: {
@@ -23,10 +26,11 @@ $(document).ready(function() {
 
     
     $(".program-sub-menu").click(function() {
-        debugger;
-        $(this).attr("href", "programmes.html");
+        // debugger;
         var title = $(this).text();
-        $("#program-title").text(title);
+        // alert(title);
+        programmesTitle = title;
+        window.location = 'programmes.html?title=' + title;
     });
 
     $(".hide-menu").click(function() {
@@ -34,6 +38,21 @@ $(document).ready(function() {
     });
 
 });
+
+// var subMenu = document.querySelectorAll('.program-sub-menu');
+
+// for (var i = 0; i < subMenu.length; i++) {
+//     subMenu[i].addEventListener('click', function(event) {
+
+//         location.href="programmes.html";
+//         this.programmesTitle = 'hi';
+//     });
+// }
+
+// document.addEventListener("emit",function(e) {
+//                 console.log(e.detail);
+//                 $("#program-title").text(e.detail);
+//             }); 
 
 // // function replace_submenu() {
 // //     debugger;
