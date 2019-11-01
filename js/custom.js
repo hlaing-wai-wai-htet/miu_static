@@ -26,9 +26,7 @@ $(document).ready(function() {
 
     
     $(".program-sub-menu").click(function() {
-        // debugger;
         var title = $(this).text();
-        // alert(title);
         programmesTitle = title;
         window.location = 'programmes.html?title=' + title;
     });
