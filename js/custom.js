@@ -3,15 +3,52 @@ $(document).ready(function() {
 
     // $("header").load("header.html");
 
-    
-
-    var swiper = new Swiper('.swiper-container', {
+    /*Index Page*/
+    var swiper = new Swiper('#header-slider', {
         pagination: {
-            el: '.swiper-pagination',
+            el: '#header-swiper-pagination',
             clickable: true,
         },
         navigation: {
             nextEl: '.swiper-button-next',
+            clickable: true,
+        },
+    });
+
+    var swiper = new Swiper('#news-slider', {
+        pagination: {
+            el: '#news-swiper-pagination',
+            clickable: true,
+        },
+    });
+
+    var swiper = new Swiper('#event1-slider', {});
+
+    var swiper = new Swiper('#event2-slider', {
+        pagination: {
+            el: '#event2-swiper-pagination',
+            clickable: true,
+        },
+    });
+
+    var swiper = new Swiper('#gallery-slider', {
+        navigation: {
+            nextEl: '#gallery-swiper-button-next',
+            clickable: true,
+        },
+    });
+
+    /* Partnership */
+    var swiper = new Swiper('#pearson-slider', {
+        navigation: {
+            nextEl: '#pearson-swiper-button-next',
+            clickable: true,
+        },
+    });
+
+    var swiper = new Swiper('#northampton-slider', {
+        navigation: {
+            nextEl: '#northampton-swiper-button-next',
             clickable: true,
         },
     });

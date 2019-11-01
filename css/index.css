@@ -39,7 +39,7 @@
     right: 28px;
 }
 
-#event-slider .swiper-wrapper .swiper-slide {
+#event1-slider .swiper-wrapper .swiper-slide {
     display: flex;
     width: 60% !important;
 }
