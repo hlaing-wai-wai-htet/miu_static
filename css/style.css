@@ -9,10 +9,9 @@
   font-style: normal;
 }
 
-html, body { touch-action: none }
-
 body {
   font-family: 'rubik', sans-serif;
+  height: auto;
   overflow-y: auto;
 }
 
@@ -27,6 +26,7 @@ button:focus {
 a{
   text-decoration: none;
   color: #212121;
+  font-size: 14px;
 }
 
 a:hover {
@@ -62,7 +62,6 @@ img {
 
 .navbar-collapse ul li a{
   color: #ffffff;
-  font-size: 16px;
 }
 
 .navbar-toggler {

@@ -263,7 +263,11 @@
         <script>
             const urlParams = new URLSearchParams(window.location.search);
             const myParam = urlParams.get('title');
-            $("#program-title").text(myParam);
+            if (myParam == null) {
+                $("#program-title").text("Bachelor of Business and Management");
+            } else {
+                $("#program-title").text(myParam);
+            }
         </script>
     </body>
 </html>
