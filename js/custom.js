@@ -1,8 +1,6 @@
 
 $(document).ready(function() {
 
-    // $("header").load("header.html");
-
     /*Index Page*/
     var swiper = new Swiper('#header-slider', {
         pagination: {
@@ -53,11 +51,30 @@ $(document).ready(function() {
         },
     });
 
+    var swiper = new Swiper('#event-and-activity-slider', {
+        pagination: {
+            el: '#event-and-activity-swiper-pagination',
+            clickable: true,
+        },
+    });
+    
+    var swiper = new Swiper('#events-slider', {
+        
+    });
+    
+    var swiper = new Swiper('#event-gallery-slider', {
+        navigation: {
+            nextEl: '#event-gallery-swiper-button-next',
+            clickable: true,
+        },
+    });
+
     $(".sub-menu").click(function(){
-        if ($(this).children().hasClass("fa-chevron-down")) {
-            $(this).children().removeClass("fa-chevron-down").addClass("fa-chevron-up");
-        } else {
+        if ($(this).children().hasClass("fa-chevron-up")) {
             $(this).children().removeClass("fa-chevron-up").addClass("fa-chevron-down");
+        } else {
+            $(".sub-menu").children().removeClass("fa-chevron-up").addClass("fa-chevron-down");
+            $(this).children().removeClass("fa-chevron-down").addClass("fa-chevron-up");
         }
     });
 
@@ -73,28 +90,6 @@ $(document).ready(function() {
     });
 
 });
-
-// var subMenu = document.querySelectorAll('.program-sub-menu');
-
-// for (var i = 0; i < subMenu.length; i++) {
-//     subMenu[i].addEventListener('click', function(event) {
-
-//         location.href="programmes.html";
-//         this.programmesTitle = 'hi';
-//     });
-// }
-
-// document.addEventListener("emit",function(e) {
-//                 console.log(e.detail);
-//                 $("#program-title").text(e.detail);
-//             }); 
-
-// // function replace_submenu() {
-// //     debugger;
-// $(this).attr("href", "programmes.html");
-// //     var title = $(this).text();
-// //     $("#program-title").text(title);
-// // }
 
 // $.get("header.html", function(data){
 //     alert(data)

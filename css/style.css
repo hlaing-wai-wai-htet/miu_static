@@ -86,7 +86,11 @@ img {
 /*footer*/
 footer {
   background-color: #0a1c30;
-  color: #ffffff;
+  color: #ffffff !important;
+}
+
+footer p {
+  color: #ffffff !important;
 }
 
 .footer-logo {
@@ -165,6 +169,8 @@ h5 {
 
 p {
   font-size: 14px;
+  text-align: left;
+  color:  #212121;
 }
 
 .font-12 {
@@ -199,6 +205,11 @@ p {
 /*Margin*/
 .mt__40 {
   margin-top: -40px;
+}
+
+/*List Style*/
+.list-type-disc {
+  list-style-type: disc !important;
 }
 
 .underline {
@@ -237,6 +248,17 @@ p {
   background-repeat: no-repeat;*/
 }
 
+.swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background: #7c7c7c;
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background: #e59e00 !important;
+}
+
 /*Card*/
 .card {
   border: none !important;
@@ -267,4 +289,23 @@ p {
   top: 12%;
   right: 0;
   left: auto;
+}
+
+/* Event and Activity */
+#events-slider .swiper-wrapper .swiper-slide {
+  display: flex;
+  width: 60% !important;
+}
+
+.date-block {
+  padding: 5px;
+  color: white;
+  text-align: center;
+  width: 55px;
+  height: 60px;
+  background-color: #e59e00;
+}
+
+#event-gallery-slider .swiper-wrapper .swiper-slide {
+  width: 70% !important;
 }

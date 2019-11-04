@@ -12,16 +12,16 @@
         <link rel="stylesheet" href="plugin/fontawesome/css/all.css">
         <link rel="stylesheet" href="plugin/swiper/css/swiper.min.css">
         <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/index.css">
+
     </head>
     <body>
         <header>
             <nav class="navbar navbar-dark bg-nav fixed-top">
                 <a href="index.html"><img src="images/miu_logo.png" class="logo" alt="logo"></a>
                 <div class="float-right">
-                    <!-- <a href="#" class="pr-2"><img src="images/search.svg" class="search-icon" alt="seach-icon"></a> -->
+                    <!-- <a href="#" class="pr-2"><img src="images/search.png" class="search-icon" alt="seach-icon"></a> -->
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle">
-                        <img class="menu-icon" src="images/menu.svg">
+                        <span class="navbar-toggler-icon"></span>
                     </button>
                 </div>
                 <div class="collapse navbar-collapse border-top-gray mt-3" id="nav-content">
@@ -151,25 +151,50 @@
             </nav>
         </header>
         
-        <section class="bg-img mt-5 pt-3" style="min-height: 620px;">
-            <div class="container text-white mt-3">
-                <img src="images/executive-edu-bg.jpg">
-                <div class="text-center p-2 mt-5 mb-2">
-                    <h3>Executive Education</h3>
-                    <p class="mt-3 mb-4">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex 
-                    </p>
+        <div class="container mt-5 pt-4">
+            <div class="pt-3 pl-4 pr-4 text-center"><h1>Events and Activites</h1></div>
+            
+            <!--First Slider-->
+            <section>
+                <div class="row">
+                    <img src="images/event.png" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h3 class="card-title font-22 mb-3">MFF Futsal Football Competition</h3>
+                        <div class="media">
+                            <div class="media-left mr-3 date-block">
+                                <span>Oct</span>
+                                <h3>21</h3>
+                            </div>
+                            <div class="media-body">
+                                <h5 class="media-heading">MIU Campus</h5>
+                                <p class="text-gray">9AM - 9PM</p>
+                            </div>
+                        </div>
+                        <p class="card-text font-14 text-black mt-3">
+                            Besides Myanmar Imperial University delivering students with state-of-the-art quality educational knowledge, insights and exposures, our University also makes sure in furnishing our students with diverse events and activities that will aid in uplifting their networking skills and capabilities, and their confidence level and proficiency to adaptably function in different academic, social and collaborative scenarios. 
+                        </p>
+                        <p class="card-text font-14 text-black mt-3">
+                            Whereas we prestigiously and proudly organizes our Students’ Graduation Ceremony to celebrate their achievements and academic excellency annually, we regularly celebrate our Traditional festivals that deeply symbolize both our country and culture such as Thadingyut Festival of Lights, The ‘Myanmar’ Culture Day, Myanmar ‘Thingyan’ Festival and religious ceremonies.
+                        </p>
+                        <p class="card-text font-14 text-black mt-3">
+                            Whereas we prestigiously and proudly organizes our Students’ Graduation Ceremony to celebrate their achievements and academic excellency annually, we regularly celebrate our Traditional festivals that deeply symbolize both our country and culture such as Thadingyut Festival of Lights, The ‘Myanmar’ Culture Day, Myanmar ‘Thingyan’ Festival and religious ceremonies.
+                        </p>
+                    </div>
                 </div>
-                <div class="text-left">
-                    <ul class="pl-0 mb-4 underline">
-                        <li>Diploma in Strategic Management and Leadership</li>
-                        <li>Diploma in Strategic Marketing and Brand Management</li>
-                        <li>Diploma in Operations and Project Management</li>
-                        <li>Diploma in Business</li>
-                    </ul>
+            </section>
+            
+        </div>
+
+        <!--MIU Gallery-->
+	    <section class="bg-gray pt-4 pl-3 pr-3 pb-5">
+            <h3 class="">Gallery</h3>
+            <div id="event-gallery-slider" class="swiper-container">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><img class="gallery-img" src="images/event.png"></div>
+                  <div class="swiper-slide"><img class="gallery-img" src="images/event.png"></div>
+                  <div class="swiper-slide"><img class="gallery-img" src="images/event.png"></div>
                 </div>
+            </div>
         </section>
 
         <footer>
