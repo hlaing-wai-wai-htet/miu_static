@@ -79,11 +79,11 @@ $(document).ready(function() {
     });
 
     
-    $(".program-sub-menu").click(function() {
-        var title = $(this).text();
-        programmesTitle = title;
-        window.location = 'programmes.html?title=' + title;
-    });
+    // $(".program-sub-menu").click(function() {
+    //     var title = $(this).text();
+    //     programmesTitle = title;
+    //     window.location = 'programmes.html?title=' + title;
+    // });
 
     $(".hide-menu").click(function() {
         $("#nav-content").removeClass("show");

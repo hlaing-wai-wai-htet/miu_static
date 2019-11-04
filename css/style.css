@@ -38,7 +38,7 @@ ul {
 }
 
 ul li {
-  padding-bottom: 20px;
+  padding-bottom: .5rem;
 }
 
 img {
@@ -210,6 +210,10 @@ p {
 /*List Style*/
 .list-type-disc {
   list-style-type: disc !important;
+}
+
+.list-type-number {
+  list-style-type: decimal !important;
 }
 
 .underline {
