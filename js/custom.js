@@ -36,6 +36,17 @@ $(document).ready(function() {
         },
     });
 
+    var swiper = new Swiper('#welcome-slider', {
+        pagination: {
+            el: '#welcome-swiper-pagination',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            clickable: true,
+        },
+    });
+
     /* Partnership */
     var swiper = new Swiper('#pearson-slider', {
         navigation: {
