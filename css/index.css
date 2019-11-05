@@ -39,7 +39,7 @@
     right: 28px;
 }
 
-#event-slider .swiper-wrapper .swiper-slide {
+#event1-slider .swiper-wrapper .swiper-slide {
     display: flex;
     width: 60% !important;
 }
@@ -50,16 +50,10 @@
 
 .card {
     background-color: #7c7c7c0d !important;
-    border: none !important;
-    width: 100%;
 }
 
 .event-img {
     width: 120px;
-}
-
-.social img {
-    width: 20px;
 }
 
 .bg-yellow {
@@ -97,10 +91,6 @@
 }
 
 /* Our Achievement Section */
-.accredit img {
-    width: 60px;
-}
-
 .gallery-img {
     width: 100%;
 }
@@ -112,4 +102,14 @@
     top: 14%;
     right: 0;
     left: auto;
+}
+
+#modal_search {
+    border: none;
+    border-radius: 0;
+}
+
+#modal_search:focus {
+    box-shadow: none;
+    border-bottom: 2px solid #4285f4 !important;
 }
