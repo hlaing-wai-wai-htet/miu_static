@@ -1,4 +1,4 @@
-.contact-us {
+/* .contact-us {
     position: relative;
     overflow: hidden;
 }
@@ -15,7 +15,7 @@
 .contact-us h1, form {
     position: relative;
     z-index: 2;
-} 
+}  */
 
 form {
    max-width: 600px;
