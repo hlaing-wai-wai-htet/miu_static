@@ -9,6 +9,7 @@ $(document).ready(function() {
         },
         navigation: {
             nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
             clickable: true,
         },
     });
@@ -32,6 +33,7 @@ $(document).ready(function() {
     var swiper = new Swiper('#gallery-slider', {
         navigation: {
             nextEl: '#gallery-swiper-button-next',
+            prevEl: '.swiper-button-prev',
             clickable: true,
         },
     });
@@ -43,6 +45,7 @@ $(document).ready(function() {
         },
         navigation: {
             nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
             clickable: true,
         },
     });
@@ -51,6 +54,7 @@ $(document).ready(function() {
     var swiper = new Swiper('#pearson-slider', {
         navigation: {
             nextEl: '#pearson-swiper-button-next',
+            prevEl: '.swiper-button-prev',
             clickable: true,
         },
     });
@@ -76,6 +80,7 @@ $(document).ready(function() {
     var swiper = new Swiper('#event-gallery-slider', {
         navigation: {
             nextEl: '#event-gallery-swiper-button-next',
+            prevEl: '.swiper-button-prev',
             clickable: true,
         },
     });
@@ -89,20 +94,8 @@ $(document).ready(function() {
         }
     });
 
-    
-    // $(".program-sub-menu").click(function() {
-    //     var title = $(this).text();
-    //     programmesTitle = title;
-    //     window.location = 'programmes.html?title=' + title;
-    // });
-
     $(".hide-menu").click(function() {
         $("#nav-content").removeClass("show");
     });
 
 });
-
-// $.get("header.html", function(data){
-//     alert(data)
-//     $("#miu-header").replaceWith(data);
-// });

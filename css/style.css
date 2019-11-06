@@ -15,6 +15,10 @@ body {
   overflow-y: auto;
 }
 
+h1, h3, h5 {
+  font-weight: bold;
+}
+
 :focus {
   outline: none;
 }
@@ -31,6 +35,7 @@ a{
 
 a:hover {
   text-decoration: none;
+  color: #212121;
 }
 
 ul {
@@ -249,11 +254,20 @@ p {
   height: 60px;
 }
 
+/*Padding*/
+.pb-5px {
+  padding-bottom: 5px !important;
+}
+
 /*Swiper*/
-.swiper-button-next {
+.swiper-button-prev, .swiper-button-next {
   --swiper-theme-color: #343a40 !important;
   /*background-image: url("home/hlaing/workspace/miu_static/images/next.svg") !important;
   background-repeat: no-repeat;*/
+}
+
+.swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {
+  display: none;
 }
 
 .swiper-pagination-bullet {
