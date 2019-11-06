@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'rubik';
-  src: url('/home/mhs/workspace/miu-responsive/assets/font/rubik/Rubik-Regular.eot');
-  src: url('/home/mhs/workspace/miu-responsive/assets/font/rubik/Rubik-Regular.eot?#iefix') format('embedded-opentype'),
-   url('/home/mhs/workspace/miu-responsive/assets/font/rubik/Rubik-Regular.woff') format('woff'), 
-   url('/home/mhs/workspace/miu-responsive/assets/font/rubik/Rubik-Regular.ttf') format('truetype'), 
-   url('/home/mhs/workspace/miu-responsive/assets/font/rubik/Rubik-Regular') format('woff2');
+  src: url('/home/mhs/workspace/miu_static/assets/font/rubik/Rubik-Regular.eot');
+  src: url('/home/mhs/workspace/miu_static/assets/font/rubik/Rubik-Regular.eot?#iefix') format('embedded-opentype'),
+   url('/home/mhs/workspace/miu_static/assets/font/rubik/Rubik-Regular.woff') format('woff'), 
+   url('/home/mhs/workspace/miu_static/assets/font/rubik/Rubik-Regular.ttf') format('truetype'), 
+   url('/home/mhs/workspace/miu_static/assets/font/rubik/Rubik-Regular') format('woff2');
   font-weight: normal;
   font-style: normal;
 }

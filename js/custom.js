@@ -12,6 +12,9 @@ $(document).ready(function() {
             prevEl: '.swiper-button-prev',
             clickable: true,
         },
+        autoplay: {
+            delay: 3000,
+        },
     });
 
     var swiper = new Swiper('#news-slider', {
@@ -19,14 +22,22 @@ $(document).ready(function() {
             el: '#news-swiper-pagination',
             clickable: true,
         },
+        autoplay: {
+            delay: 3000,
+        },
     });
 
-    var swiper = new Swiper('#event1-slider', {});
+    var swiper = new Swiper('#event1-slider', {
+        
+    });
 
     var swiper = new Swiper('#event2-slider', {
         pagination: {
             el: '#event2-swiper-pagination',
             clickable: true,
+        },
+        autoplay: {
+            delay: 3000,
         },
     });
 
@@ -35,6 +46,9 @@ $(document).ready(function() {
             nextEl: '#gallery-swiper-button-next',
             prevEl: '.swiper-button-prev',
             clickable: true,
+        },
+        autoplay: {
+            delay: 3000,
         },
     });
 
@@ -48,6 +62,9 @@ $(document).ready(function() {
             prevEl: '.swiper-button-prev',
             clickable: true,
         },
+        autoplay: {
+            delay: 3000,
+        },
     });
 
     /* Partnership */
@@ -57,12 +74,18 @@ $(document).ready(function() {
             prevEl: '.swiper-button-prev',
             clickable: true,
         },
+        autoplay: {
+            delay: 3000,
+        },
     });
 
     var swiper = new Swiper('#northampton-slider', {
         navigation: {
             nextEl: '#northampton-swiper-button-next',
             clickable: true,
+        },
+        autoplay: {
+            delay: 3000,
         },
     });
 
@@ -71,10 +94,15 @@ $(document).ready(function() {
             el: '#event-and-activity-swiper-pagination',
             clickable: true,
         },
+        autoplay: {
+            delay: 3000,
+        },
     });
     
     var swiper = new Swiper('#events-slider', {
-        
+        autoplay: {
+            delay: 3000,
+        },
     });
     
     var swiper = new Swiper('#event-gallery-slider', {
@@ -82,6 +110,9 @@ $(document).ready(function() {
             nextEl: '#event-gallery-swiper-button-next',
             prevEl: '.swiper-button-prev',
             clickable: true,
+        },
+        autoplay: {
+            delay: 3000,
         },
     });
 
