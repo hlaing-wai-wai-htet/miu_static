@@ -1,19 +1,77 @@
 
 $(document).ready(function() {
 
+    var interleaveOffset = -.5;
+
+    var interleaveEffect = {
+    
+        onProgress: function(swiper, progress){
+            for (var i = 0; i < swiper.slides.length; i++){
+            var slide = swiper.slides[i];
+            var translate, innerTranslate;
+            progress = slide.progress;
+            
+            if (progress > 0) {
+                translate = progress * swiper.width;
+                innerTranslate = translate * interleaveOffset;        
+            }
+            else {        
+                innerTranslate = Math.abs( progress * swiper.width ) * interleaveOffset;
+                translate = 0;
+            }
+
+            $(slide).css({
+                transform: 'translate3d(' + translate + 'px,0,0)'
+            });
+
+            $(slide).find('.slide-inner').css({
+                transform: 'translate3d(' + innerTranslate + 'px,0,0)'
+            });
+            }
+        },
+
+        onTouchStart: function(swiper){
+            for (var i = 0; i < swiper.slides.length; i++){
+            $(swiper.slides[i]).css({ transition: '' });
+            }
+        },
+
+        onSetTransition: function(swiper, speed) {
+            for (var i = 0; i < swiper.slides.length; i++){
+            $(swiper.slides[i])
+                .find('.slide-inner')
+                .andSelf()
+                .css({ transition: speed + 'ms' });
+            }
+        }
+    };
+
+    var swiperOptions = {
+    loop: true,
+    speed: 1000,
+    grabCursor: true,
+    watchSlidesProgress: true,
+    mousewheelControl: true,
+    autoplay: {
+        delay: 5000,
+        loop: true,
+    },
+    };
+
+    swiperOptions = $.extend(swiperOptions, interleaveEffect);
+
+    var swiper = new Swiper('', swiperOptions);
+
     /*Index Page*/
     var swiper = new Swiper('#header-slider', {
+        effect: 'fade',
         pagination: {
             el: '#header-swiper-pagination',
             clickable: true,
         },
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-            clickable: true,
-        },
         autoplay: {
-            delay: 3000,
+            delay: 5000,
+            loop: true,
         },
     });
 
@@ -22,22 +80,17 @@ $(document).ready(function() {
             el: '#news-swiper-pagination',
             clickable: true,
         },
-        autoplay: {
-            delay: 3000,
-        },
     });
 
     var swiper = new Swiper('#event1-slider', {
-        
+        slidesPerView: 'auto',
+        spaceBetween: 30,
     });
 
     var swiper = new Swiper('#event2-slider', {
         pagination: {
             el: '#event2-swiper-pagination',
             clickable: true,
-        },
-        autoplay: {
-            delay: 3000,
         },
     });
 
@@ -47,23 +100,17 @@ $(document).ready(function() {
             prevEl: '.swiper-button-prev',
             clickable: true,
         },
-        autoplay: {
-            delay: 3000,
-        },
     });
 
     var swiper = new Swiper('#welcome-slider', {
+        effect: 'fade',
         pagination: {
             el: '#welcome-swiper-pagination',
             clickable: true,
         },
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-            clickable: true,
-        },
         autoplay: {
-            delay: 3000,
+            delay: 5000,
+            loop: true,
         },
     });
 
@@ -74,18 +121,12 @@ $(document).ready(function() {
             prevEl: '.swiper-button-prev',
             clickable: true,
         },
-        autoplay: {
-            delay: 3000,
-        },
     });
 
     var swiper = new Swiper('#northampton-slider', {
         navigation: {
             nextEl: '#northampton-swiper-button-next',
             clickable: true,
-        },
-        autoplay: {
-            delay: 3000,
         },
     });
 
@@ -94,15 +135,9 @@ $(document).ready(function() {
             el: '#event-and-activity-swiper-pagination',
             clickable: true,
         },
-        autoplay: {
-            delay: 3000,
-        },
     });
     
     var swiper = new Swiper('#events-slider', {
-        autoplay: {
-            delay: 3000,
-        },
     });
     
     var swiper = new Swiper('#event-gallery-slider', {
@@ -110,9 +145,6 @@ $(document).ready(function() {
             nextEl: '#event-gallery-swiper-button-next',
             prevEl: '.swiper-button-prev',
             clickable: true,
-        },
-        autoplay: {
-            delay: 3000,
         },
     });
 

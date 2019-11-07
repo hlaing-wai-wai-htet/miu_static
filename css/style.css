@@ -91,11 +91,11 @@ img {
 /*footer*/
 footer {
   background-color: #0a1c30;
-  color: #ffffff !important;
+  color: #fff !important;
 }
 
 footer p {
-  color: #ffffff !important;
+  color: #fff;
 }
 
 .footer-logo {
@@ -116,7 +116,7 @@ footer p {
 }
 
 .bg-white {
-  background-color: #ffffff !important;
+  background-color: #fff !important;
 }
 
 .bg-gray {
@@ -151,9 +151,9 @@ footer p {
   color:  #e59e00 !important;
 }
 
-.text-white {
+/* .text-white {
   color: #ffffff !important;
-}
+} */
 
 .text-gray {
   color: #666666 !important;
