@@ -149,11 +149,14 @@ $(document).ready(function() {
     });
 
     $(".sub-menu").click(function(){
-        if ($(this).children().hasClass("fa-chevron-up")) {
-            $(this).children().removeClass("fa-chevron-up").addClass("fa-chevron-down");
+        if($(this).children("img").attr("src") == "images/down.svg") {
+            $(".sub-menu").children("img").attr("src", "images/down.svg");
+            $(".sub-menu-collapsed").removeClass("show").addClass("hide");
+            $(this).children("img").attr("src", "images/up.svg");
+            $(this).next(".sub-menu-collapsed").removeClass("hide").addClass("show");
         } else {
-            $(".sub-menu").children().removeClass("fa-chevron-up").addClass("fa-chevron-down");
-            $(this).children().removeClass("fa-chevron-down").addClass("fa-chevron-up");
+            $(this).children("img").attr("src", "images/down.svg");
+            $(this).next(".sub-menu-collapsed").removeClass("show").addClass("hide");
         }
     });
 
@@ -162,3 +165,11 @@ $(document).ready(function() {
     });
 
 });
+
+function changeImgDir(collapseBtn) {
+    if($(collapseBtn).children("img").attr("src") == "images/down.svg") {
+        $(collapseBtn).children("img").attr("src", "images/up.svg");
+    } else {
+        $(collapseBtn).children("img").attr("src", "images/down.svg");
+    }
+}
