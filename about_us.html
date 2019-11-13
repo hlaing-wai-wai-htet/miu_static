@@ -27,10 +27,10 @@
 				<ul class="text-white p-3">
 					<li>
 						<a class="font-18" href="about_us.html">ABOUT US</a>
-						<a class="float-right sub-menu" data-toggle="collapse" data-target="#about-us">
+						<a class="float-right sub-menu">
 							<i class="fa fa-fw fa-chevron-down"></i>
 						</a>
-						<div id="about-us" class="collapse border-bottom-gray pt-3 pb-3 mb-3">
+						<div id="about-us" class="hide sub-menu-collapsed border-bottom-gray pt-3 pb-3 mb-3">
 							<span class="font-16">MIU At a Glance</span>
 								<ul class="pl-2 font-14">
 									<li>
@@ -57,10 +57,10 @@
 					</li>
 					<li>
 						<a class="font-18">PROGRAMMES</a>
-						<a class="float-right sub-menu" data-toggle="collapse" data-target="#programmes">
+						<a class="float-right sub-menu">
 							<i class="fa fa-fw fa-chevron-down"></i>
 						</a>
-						<div id="programmes" class="collapse border-bottom-gray pt-3 pb-3 mb-3">
+						<div id="programmes" class="hide sub-menu-collapsed border-bottom-gray pt-3 pb-3 mb-3">
 							<ul>
 								<li>
 									<span class="font-16">Study At MIU</span>
@@ -82,10 +82,10 @@
 										</li>
 										<li>
 											<a href="executive_education_programme.html" class="program-sub-menu">Executive Education</a>
-											<a class="sub-menu" data-toggle="collapse" data-target="#exec-education">
+											<a data-toggle="collapse" data-target="#exec-education" onclick="changeImgDir(this)">
 												<i class="fa fa-fw fa-chevron-down"></i>
 											</a>
-											<div id="exec-education" class="collapse navbar-collapse">
+											<div id="exec-education" class="collapse">
 												<ul class="pl-2 font-14">
 													<li>
 														<a href="executive_education_programme.html#DSML">Diploma in Strategic Management and Leadership</a>
@@ -108,11 +108,11 @@
 						</div>
 					</li>
 					<li>
-						<a class="font-18" href="life_at_miu.html">LIFE AT MIU</a>
-						<a class="float-right sub-menu" data-toggle="collapse" data-target="#life-at-miu">
+						<a class="font-18">LIFE AT MIU</a>
+						<a class="float-right sub-menu">
 							<i class="fa fa-fw fa-chevron-down"></i>
 						</a>
-						<div id="life-at-miu" class="collapse  border-bottom-gray pt-3 pb-3 mb-3">
+						<div id="life-at-miu" class="hide sub-menu-collapsed border-bottom-gray pt-3 pb-3 mb-3">
 							<ul>
 								<li>
 									<span class="font-16">Events and Activites</span>
@@ -127,10 +127,10 @@
 					</li>
 					<li>
 						<a class="font-18" href="#">OPPORTUNITES</a>
-						<a class="float-right sub-menu" data-toggle="collapse" data-target="#opportunities">
+						<a class="float-right sub-menu">
 							<i class="fa fa-fw fa-chevron-down"></i>
 						</a>
-						<div id="opportunities" class="collapse  border-bottom-gray pt-3 pb-3 mb-3">
+						<div id="opportunities" class="hide sub-menu-collapsed border-bottom-gray pt-3 pb-3 mb-3">
 							<ul class="pl-2 font-14">
 								<li><a class="font-16" href="partnership.html">Partnerships</a></li>
 								<li><a class="font-16" href="career_and_network.html">Careers and Networking</a></li>
@@ -162,10 +162,10 @@
 				<ul class="pl-0 text-black">
 					<li class="pb-2">
 						<span>Vision of Myanmar Imperial University</span>
-						<a class="sub-menu" data-toggle="collapse" data-target="#vision-of-miu">
+						<a class="sub-menu">
 							<i class="fa fa-fw fa-chevron-down"></i>
 						</a>
-						<div id="vision-of-miu" class="collapse navbar-collapse pl-4">
+						<div id="vision-of-miu" class="hide sub-menu-collapsed pl-4">
 							<ul class="pl-2 font-14 list-type-disc">
 								<li>To be the top ranked university in South East Asia within 7 years.</li>
 								<li>To be the leading private University in Myanmar for developing leaders for our country’s development.</li>
@@ -175,10 +175,10 @@
 					</li>
 					<li class="pb-2">
 						<span>Mission of Myanmar Imperial University</span>
-						<a class="sub-menu" data-toggle="collapse" data-target="#mission-of-miu">
+						<a class="sub-menu">
 							<i class="fa fa-fw fa-chevron-down"></i>
 						</a>
-						<div id="mission-of-miu" class="collapse navbar-collapse pl-4">
+						<div id="mission-of-miu" class="hide sub-menu-collapsed pl-4">
 							<ul class="pl-2 font-14 list-type-disc">
 								<li>To develop leaders with positive attitude and ethics for the country’s development.</li>
 								<li>To provide globally-recognized quality education with academic excellence, knowledge and encouragement.</li>
@@ -189,10 +189,10 @@
 					</li>
 					<li class="pb-2">
 						<span>Our Core Values</span>
-						<a class="sub-menu" data-toggle="collapse" data-target="#our-core-value">
+						<a class="sub-menu">
 							<i class="fa fa-fw fa-chevron-down"></i>
 						</a>
-						<div id="our-core-value" class="collapse navbar-collapse pl-4">
+						<div id="our-core-value" class="hide sub-menu-collapsed pl-4">
 							<ul class="pl-2 font-14 list-type-disc">
 								<li>Lead and learn</li>
 								<li>Strive for the best</li>
@@ -203,10 +203,10 @@
 					</li>
 					<li class="pb-2">
 						<span>Our Strategic Priorities</span>
-						<a class="sub-menu" data-toggle="collapse" data-target="#our-strategic-priorities">
+						<a class="sub-menu">
 							<i class="fa fa-fw fa-chevron-down"></i>
 						</a>
-						<div id="our-strategic-priorities" class="collapse navbar-collapse pl-2">
+						<div id="our-strategic-priorities" class="hide sub-menu-collapsed pl-2">
 							<p class="pt-2">
 								1) Education, 2) Research, 3) Capacity Building, 4) Global Reach, 5) Corporate Social Responsibility and 6) Financial Sustainability.
 							</p>
@@ -214,10 +214,10 @@
 					</li>
 					<li class="pb-2">
 						<span>Our Cultural Values</span>
-						<a class="sub-menu" data-toggle="collapse" data-target="#our-cultural-values">
+						<a class="sub-menu">
 							<i class="fa fa-fw fa-chevron-down"></i>
 						</a>
-						<div id="our-cultural-values" class="collapse navbar-collapse pl-2">
+						<div id="our-cultural-values" class="hide sub-menu-collapsed pl-2">
 							<p class="pt-2">
 								Among the private institutions across Myanmar, we not only provide the 
 								globally-recognized academic qualifications for our students, we preserve 
@@ -262,10 +262,10 @@
 					In addition, the MIU Futsal Club that our founders co-established had also accomplished major triumphs and achievements across both locally and internationally, having clinched as champions along with Fair Play Award for both Local and International Futsal League from the year 2014-2019, consecutively.
 				</p>
 				<span class="font-16">Some of our Highlighted Milestones:</span>
-				<a class="sub-menu" data-toggle="collapse" data-target="#milestones">
+				<a class="sub-menu">
 					<i class="fa fa-fw fa-chevron-down"></i>
 				</a>
-				<div id="milestones" class="collapse navbar-collapse pl-4">
+				<div id="milestones" class="hide sub-menu-collapsed pl-4">
 					<ul class="pl-2 font-14 list-type-disc">
 						<li>MIU currently has more than 3,000 graduated students in MIU Alumni network.</li>
 						<li>MIU proudly participated as an academic sponsor for organizing the Philip Kotler’s “Myanmar Marketing Forum 2014” in Myanmar.</li>
@@ -293,10 +293,10 @@
 				<ul class="pl-0">
 					<li class="pb-2">
 						<span class="font-16">Our Academic Faculty</span>
-						<a class="sub-menu" data-toggle="collapse" data-target="#academic-faculty">
+						<a class="sub-menu">
 							<i class="fa fa-fw fa-chevron-down"></i>
 						</a>
-						<div id="academic-faculty" class="collapse navbar-collapse pl-4">
+						<div id="academic-faculty" class="hide sub-menu-collapsed pl-4">
 							<ul class="pl-2 font-14 list-type-disc">
 								<li>A gender-diverse academic team with a cumulative experience of 300 years’ worth professional academic teaching</li>
 								<li>Academic development offered to lecturers of the University bringing them up-to-date to best practices and giving them further resources to learning</li>
@@ -306,10 +306,10 @@
 					</li>
 					<li class="pb-2">
 						<span class="font-16">Daw Poht Poht Kyi</span>
-						<a class="sub-menu" data-toggle="collapse" data-target="#daw-pont-kyi">
+						<a class="sub-menu">
 							<i class="fa fa-fw fa-chevron-down"></i>
 						</a>
-						<div id="daw-pont-kyi" class="collapse navbar-collapse pt-2">
+						<div id="daw-pont-kyi" class="hide sub-menu-collapsed pt-2">
 							<p>
 								Founder and Managing Director (Myanmar Imperial University)
 							</p>
@@ -320,10 +320,10 @@
 					</li>
 					<li class="pb-2">
 						<span class="font-16">Professor Dr. Nick Petford</span>
-						<a class="sub-menu" data-toggle="collapse" data-target="#nick-petford">
+						<a class="sub-menu">
 							<i class="fa fa-fw fa-chevron-down"></i>
 						</a>
-						<div id="nick-petford" class="collapse navbar-collapse pt-2">
+						<div id="nick-petford" class="hide sub-menu-collapsed pt-2">
 							<p>
 								Vice Chancellor (University of Northampton)
 							</p>
@@ -334,10 +334,10 @@
 					</li>
 					<li class="pb-2">
 						<span class="font-16">Professor Dr. Ye Ye Myint</span>
-						<a class="sub-menu" data-toggle="collapse" data-target="#ye-ye-myint">
+						<a class="sub-menu">
 							<i class="fa fa-fw fa-chevron-down"></i>
 						</a>
-						<div id="ye-ye-myint" class="collapse navbar-collapse pt-2">
+						<div id="ye-ye-myint" class="hide sub-menu-collapsed pt-2">
 							<p>
 								Academic Advisory Head (Myanmar Imperial University)
 							</p>
@@ -348,10 +348,10 @@
 					</li>
 					<li class="pb-2">
 						<span class="font-16">Professor Dr. Hla Myint</span>
-						<a class="sub-menu" data-toggle="collapse" data-target="#hla-myint">
+						<a class="sub-menu">
 							<i class="fa fa-fw fa-chevron-down"></i>
 						</a>
-						<div id="hla-myint" class="collapse navbar-collapse pt-2">
+						<div id="hla-myint" class="hide sub-menu-collapsed pt-2">
 							<p>
 								Academic Head (Myanmar Imperial University)
 							</p>
@@ -362,10 +362,10 @@
 					</li>
 					<li>
 						<span class="font-16">MIU Imperial Team</span>
-						<a class="sub-menu" data-toggle="collapse" data-target="#imperial-team">
+						<a class="sub-menu">
 							<i class="fa fa-fw fa-chevron-down"></i>
 						</a>
-						<div id="imperial-team" class="collapse navbar-collapse pt-2">
+						<div id="imperial-team" class="hide sub-menu-collapsed pt-2">
 							<img src="images/event.png" />
 						</div>
 					</li>
@@ -391,10 +391,10 @@
 						<ul class="pl-0">
 							<li class="pb-2">
 								<span class="font-16 text-blue">The University of Northampton</span>
-								<a class="sub-menu" data-toggle="collapse" data-target="#northampton">
+								<a class="sub-menu">
 									<i class="fa fa-fw fa-chevron-down"></i>
 								</a>
-								<div id="northampton" class="collapse navbar-collapse">
+								<div id="northampton" class="hide sub-menu-collapsed">
 									<div class="pl-4">
 										<ul class="pl-2 font-14 list-type-disc">
 											<li>UK’s highest climbing university</li>
@@ -410,10 +410,10 @@
 							</li>
 							<li>
 								<span class="font-16 text-blue">Pearson</span>
-								<a class="sub-menu" data-toggle="collapse" data-target="#pearson">
+								<a class="sub-menu">
 									<i class="fa fa-fw fa-chevron-down"></i>
 								</a>
-								<div id="pearson" class="collapse navbar-collapse">
+								<div id="pearson" class="hide sub-menu-collapsed">
 									<p>Pearson is one the UK’s largest awarding organizations, offering academic and vocational qualifications and testing to schools, colleges, employers and other places of learning, both in the UK and internationally. Qualifications offered include GCSE, International GCSE, AS and A Level, IAL, and our BETEC suite of vocational qualifications.</p>
 									<p>Myanmar Imperial University (MIU) offers efficient and effective ways to study these qualifications within the comfort of one’s own country.</p>
 								</div>
